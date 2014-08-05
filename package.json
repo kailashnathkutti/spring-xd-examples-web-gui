@@ -1,0 +1,17 @@
+{
+  "name": "spring-xd-exaples-ui",
+  "subdomain": "spring-xd-exaples",
+  "author": "Kailashnath Kutti <kkutti@pivotal.io>",
+  "scripts": {
+    "start": "server.js"
+  },
+  "version": "0.0.3-1",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "dependencies": {
+    "socket.io": "latest",
+    "node-static": "latest"
+    "amqplib": "latest"	
+  }
+}
