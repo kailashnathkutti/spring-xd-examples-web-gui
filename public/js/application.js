@@ -126,7 +126,7 @@ $(function() {
 	// delete inactive users every 15 sec
 	setInterval(function() {
 		for (var ident in connects){
-			if ($.now() - connects[ident].updated > 50000) {
+			if ($.now() - connects[ident].updated > 5000) {
 				delete connects[ident];
 				map.removeLayer(markers[ident]);
 			}

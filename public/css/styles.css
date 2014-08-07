@@ -22,8 +22,8 @@ h1 {
 }
 
 .wrapper {
-	width: 770px;
-	margin: 50px auto;
+	width: 1200px;
+	/*margin: 50px auto;*/
 }
 
 .app {
@@ -44,8 +44,8 @@ h1 {
 }
 
 #map {
-	width: 750px;
-	height: 420px;
+	width: 1200px;
+	height: 800px;
 	background: transparent;
 }
 
